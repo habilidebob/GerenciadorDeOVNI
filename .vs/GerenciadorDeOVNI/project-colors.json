@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "90486ec2-2d13-4e76-b90e-58db3c320b1b": {
+      "ProjectGuid": "90486ec2-2d13-4e76-b90e-58db3c320b1b",
+      "DisplayName": "GerenciadorDeOVNI",
+      "ColorIndex": 0
+    },
+    "7577c21d-1e10-4713-bc20-5339bee758af": {
+      "ProjectGuid": "7577c21d-1e10-4713-bc20-5339bee758af",
+      "DisplayName": "BibliotecaOVNI",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}
