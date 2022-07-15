@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorDeOVNI", "GerenciadorDeOVNI\GerenciadorDeOVNI.csproj", "{90486EC2-2D13-4E76-B90E-58DB3C320B1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaOVNI", "..\..\..\Desktop\BibliotecaOVNI\BibliotecaOVNI\BibliotecaOVNI.csproj", "{7577C21D-1E10-4713-BC20-5339BEE758AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaOVNI", "BibliotecaOVNI\BibliotecaOVNI\BibliotecaOVNI.csproj", "{7577C21D-1E10-4713-BC20-5339BEE758AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

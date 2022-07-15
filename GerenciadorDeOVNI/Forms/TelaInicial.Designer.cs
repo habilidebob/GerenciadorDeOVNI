@@ -132,6 +132,7 @@
             this.llblSair.Name = "llblSair";
             this.llblSair.Size = new System.Drawing.Size(14, 13);
             this.llblSair.TabIndex = 9;
+            this.llblSair.TabStop = true;
             this.llblSair.Text = "X";
             this.llblSair.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llblSair_LinkClicked);
             // 
@@ -151,8 +152,9 @@
             this.Controls.Add(this.lblMaxTripulantes);
             this.Controls.Add(this.lblPlaneta);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Location = new System.Drawing.Point(350, 200);
             this.Name = "TelaInicial";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "TelaInicial";
             ((System.ComponentModel.ISupportInitialize)(this.nudTripulantes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudAbduzidos)).EndInit();

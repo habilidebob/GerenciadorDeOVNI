@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.grbInfos = new System.Windows.Forms.GroupBox();
-            this.lblTitulo = new System.Windows.Forms.Label();
-            this.lblSituacao = new System.Windows.Forms.Label();
-            this.lblTripulantes = new System.Windows.Forms.Label();
-            this.lblPlanetaAtual = new System.Windows.Forms.Label();
             this.lblAbduzidos = new System.Windows.Forms.Label();
+            this.lblPlanetaAtual = new System.Windows.Forms.Label();
+            this.lblTripulantes = new System.Windows.Forms.Label();
+            this.lblSituacao = new System.Windows.Forms.Label();
+            this.lblTitulo = new System.Windows.Forms.Label();
             this.btnLigar = new System.Windows.Forms.Button();
             this.btnAddTripulante = new System.Windows.Forms.Button();
             this.btnRemoverTrip = new System.Windows.Forms.Button();
@@ -57,35 +57,15 @@
             this.grbInfos.TabStop = false;
             this.grbInfos.Text = "Informações do Veículo:";
             // 
-            // lblTitulo
+            // lblAbduzidos
             // 
-            this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Lucida Console", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(170, 23);
-            this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(284, 27);
-            this.lblTitulo.TabIndex = 1;
-            this.lblTitulo.Text = "UFO Control Panel";
-            // 
-            // lblSituacao
-            // 
-            this.lblSituacao.AutoSize = true;
-            this.lblSituacao.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSituacao.Location = new System.Drawing.Point(66, 25);
-            this.lblSituacao.Name = "lblSituacao";
-            this.lblSituacao.Size = new System.Drawing.Size(97, 16);
-            this.lblSituacao.TabIndex = 0;
-            this.lblSituacao.Text = "Situação:";
-            // 
-            // lblTripulantes
-            // 
-            this.lblTripulantes.AutoSize = true;
-            this.lblTripulantes.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTripulantes.Location = new System.Drawing.Point(36, 80);
-            this.lblTripulantes.Name = "lblTripulantes";
-            this.lblTripulantes.Size = new System.Drawing.Size(127, 16);
-            this.lblTripulantes.TabIndex = 1;
-            this.lblTripulantes.Text = "Tripulantes:";
+            this.lblAbduzidos.AutoSize = true;
+            this.lblAbduzidos.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAbduzidos.Location = new System.Drawing.Point(56, 108);
+            this.lblAbduzidos.Name = "lblAbduzidos";
+            this.lblAbduzidos.Size = new System.Drawing.Size(107, 16);
+            this.lblAbduzidos.TabIndex = 3;
+            this.lblAbduzidos.Text = "Abduzidos:";
             // 
             // lblPlanetaAtual
             // 
@@ -97,15 +77,35 @@
             this.lblPlanetaAtual.TabIndex = 2;
             this.lblPlanetaAtual.Text = "Planeta Atual:";
             // 
-            // lblAbduzidos
+            // lblTripulantes
             // 
-            this.lblAbduzidos.AutoSize = true;
-            this.lblAbduzidos.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAbduzidos.Location = new System.Drawing.Point(56, 108);
-            this.lblAbduzidos.Name = "lblAbduzidos";
-            this.lblAbduzidos.Size = new System.Drawing.Size(107, 16);
-            this.lblAbduzidos.TabIndex = 3;
-            this.lblAbduzidos.Text = "Abduzidos:";
+            this.lblTripulantes.AutoSize = true;
+            this.lblTripulantes.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTripulantes.Location = new System.Drawing.Point(36, 80);
+            this.lblTripulantes.Name = "lblTripulantes";
+            this.lblTripulantes.Size = new System.Drawing.Size(127, 16);
+            this.lblTripulantes.TabIndex = 1;
+            this.lblTripulantes.Text = "Tripulantes:";
+            // 
+            // lblSituacao
+            // 
+            this.lblSituacao.AutoSize = true;
+            this.lblSituacao.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSituacao.Location = new System.Drawing.Point(66, 25);
+            this.lblSituacao.Name = "lblSituacao";
+            this.lblSituacao.Size = new System.Drawing.Size(97, 16);
+            this.lblSituacao.TabIndex = 0;
+            this.lblSituacao.Text = "Situação:";
+            // 
+            // lblTitulo
+            // 
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Font = new System.Drawing.Font("Lucida Console", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(170, 23);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(284, 27);
+            this.lblTitulo.TabIndex = 1;
+            this.lblTitulo.Text = "UFO Control Panel";
             // 
             // btnLigar
             // 
@@ -127,6 +127,7 @@
             this.btnAddTripulante.TabIndex = 3;
             this.btnAddTripulante.Text = "Adicionar Tripulante";
             this.btnAddTripulante.UseVisualStyleBackColor = true;
+            this.btnAddTripulante.Click += new System.EventHandler(this.btnAddTripulante_Click);
             // 
             // btnRemoverTrip
             // 

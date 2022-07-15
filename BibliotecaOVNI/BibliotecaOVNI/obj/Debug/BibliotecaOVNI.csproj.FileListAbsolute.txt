@@ -10,3 +10,9 @@ C:\Users\estevao.roliveira\Desktop\BibliotecaOVNI\BibliotecaOVNI\obj\Debug\Bibli
 C:\Users\estevao.roliveira\Desktop\BibliotecaOVNI\BibliotecaOVNI\obj\Debug\BibliotecaOVNI.csproj.CoreCompileInputs.cache
 C:\Users\estevao.roliveira\Desktop\BibliotecaOVNI\BibliotecaOVNI\obj\Debug\BibliotecaOVNI.dll
 C:\Users\estevao.roliveira\Desktop\BibliotecaOVNI\BibliotecaOVNI\obj\Debug\BibliotecaOVNI.pdb
+C:\Users\estevao.roliveira\Documents\UC12\GerenciadorDeOVNI\BibliotecaOVNI\BibliotecaOVNI\bin\Debug\BibliotecaOVNI.dll
+C:\Users\estevao.roliveira\Documents\UC12\GerenciadorDeOVNI\BibliotecaOVNI\BibliotecaOVNI\bin\Debug\BibliotecaOVNI.pdb
+C:\Users\estevao.roliveira\Documents\UC12\GerenciadorDeOVNI\BibliotecaOVNI\BibliotecaOVNI\obj\Debug\BibliotecaOVNI.csproj.AssemblyReference.cache
+C:\Users\estevao.roliveira\Documents\UC12\GerenciadorDeOVNI\BibliotecaOVNI\BibliotecaOVNI\obj\Debug\BibliotecaOVNI.csproj.CoreCompileInputs.cache
+C:\Users\estevao.roliveira\Documents\UC12\GerenciadorDeOVNI\BibliotecaOVNI\BibliotecaOVNI\obj\Debug\BibliotecaOVNI.dll
+C:\Users\estevao.roliveira\Documents\UC12\GerenciadorDeOVNI\BibliotecaOVNI\BibliotecaOVNI\obj\Debug\BibliotecaOVNI.pdb

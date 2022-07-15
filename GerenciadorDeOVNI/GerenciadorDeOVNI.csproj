@@ -102,13 +102,13 @@
     <None Include="Resources\miriam-espacio-iUS8HYDhCsQ-unsplash.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Desktop\BibliotecaOVNI\BibliotecaOVNI\BibliotecaOVNI.csproj">
+    <None Include="Resources\3306658.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BibliotecaOVNI\BibliotecaOVNI\BibliotecaOVNI.csproj">
       <Project>{7577c21d-1e10-4713-bc20-5339bee758af}</Project>
       <Name>BibliotecaOVNI</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3306658.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
